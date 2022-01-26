@@ -3,8 +3,8 @@
   <meta charset="utf-8">
 
   <title>test gogocarto</title>
-  <link rel="stylesheet" href="https://transiscope-en.gogocarto.fr/css/gogocarto.css?ver=3.3.17">    
-  <script src="https://transiscope-en.gogocarto.fr/js/gogocarto.js?ver=3.3.17"></script>
+  <link rel="stylesheet" href="https://transiscope.gogocarto.fr/css/gogocarto.css?ver=3.3.17">    
+  <script src="https://transiscope.gogocarto.fr/js/gogocarto.js?ver=3.3.17"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:500,700" rel="stylesheet">   
 </head>
@@ -13,7 +13,7 @@
   <div id="gogocarto"></div>
   <script>
   const getConf = async function() {
-    const  responseConf = await fetch('https://transiscope-en.gogocarto.fr/api/gogocartojs-conf.json');
+    const  responseConf = await fetch('https://transiscope.gogocarto.fr/api/gogocartojs-conf.json');
     const  confRaw = await responseConf.json();
     // console.log(confRaw);
     const conf={
